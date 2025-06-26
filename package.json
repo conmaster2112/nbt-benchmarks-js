@@ -1,0 +1,31 @@
+{
+  "name": "nbt-benchmarks",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/conmaster2112/nbt-benchmarks-js#readme",
+  "bugs": {
+    "url": "https://github.com/conmaster2112/nbt-benchmarks-js/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/conmaster2112/nbt-benchmarks-js.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "bench":"deno --allow-all ./src/index.ts"
+  },
+  "dependencies": {
+    "@serenityjs/binarystream": "^2.7.1",
+    "@serenityjs/nbt": "0.8.6-beta-20250624193823",
+    "mitata": "^1.0.34",
+    "prismarine-nbt": "^2.7.0",
+    "rolldown": "1.0.0-beta.20"
+  },
+  "devDependencies": {
+    "@types/deno": "^2.3.0",
+    "@types/node": "^24.0.4"
+  }
+}
